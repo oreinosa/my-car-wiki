@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "my-car-wiki": {
+      "hosting": {
+        "my-car-wiki": [
+          "my-car-wiki"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "my-car-wiki"
+  }
+}
