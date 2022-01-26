@@ -46,10 +46,10 @@ const getCars = async (req, res) => {
     const params = {
       limit: limit || '10',
       page: page || '0',
-      year: year || undefined,
-      type: type || undefined,
-      make: make || undefined,
-      model: model || undefined
+      year: year || "",
+      type: type || "",
+      make: make || "",
+      model: model || ""
     };
     const options = {
       method: 'GET',

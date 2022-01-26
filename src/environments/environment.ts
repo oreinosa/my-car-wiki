@@ -11,7 +11,8 @@ export const environment = {
     authDomain: 'my-car-wiki.firebaseapp.com',
     messagingSenderId: '680251454150',
   },
-  production: false
+  production: false,
+  api: "http://localhost:5001/my-car-wiki/us-central1/api",
 };
 
 /*
